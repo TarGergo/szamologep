@@ -1,7 +1,7 @@
 import secret_logic
 
 def ask():
-    print("Calculator app. Please write down these: ")
+    print("Calculator application. Please write down these: ")
 
     print("1.operand(integer): ")
      text = input()
