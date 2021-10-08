@@ -3,7 +3,7 @@ def is_numeric(text):
 
 
 def is_supported(text):
-    text in ['+', '-', '*', '/']
+    return text in ['+', '-', '*', '/']
 
 
 def calculate(operand1, poperator, operand2):
